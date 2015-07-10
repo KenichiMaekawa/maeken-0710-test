@@ -1,0 +1,8 @@
+= simple_form_for @hoge, :html => { :class => 'form-horizontal' } do |f|
+  = f.input :name
+  = error_span(@hoge[:name])
+  = f.input :location
+  = error_span(@hoge[:location])
+  = f.button :submit, :class => 'btn-primary'
+  = link_to t('.cancel', :default => t("helpers.links.cancel")), |
+    hoges_path, :class => 'btn btn-default'                      |

@@ -64,3 +64,7 @@ gem 'simple_form'
 gem 'momentjs-rails'
 # DateTimePicker
 gem 'datetimepicker-rails', github: 'zpaulovics/datetimepicker-rails', branch: 'master', submodules: true
+
+# haml化
+gem 'haml-rails'
+gem 'erb2haml'

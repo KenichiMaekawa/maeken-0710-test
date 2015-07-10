@@ -58,3 +58,9 @@ gem 'therubyracer'
 gem 'execjs'
 # Twitter社が提供しているCSSとJavaScriptのフレームワーク
 gem 'twitter-bootstrap-rails'
+# シンプルフォーム
+gem 'simple_form'
+# 日時を操作するためのライブラリ
+gem 'momentjs-rails'
+# DateTimePicker
+gem 'datetimepicker-rails', github: 'zpaulovics/datetimepicker-rails', branch: 'master', submodules: true

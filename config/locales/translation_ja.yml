@@ -1,0 +1,15 @@
+ja:
+  activerecord:
+    models:
+      user: ユーザー
+      blog: ブログ
+    attributes:
+#      user:
+#        name: 名前
+#        email: メアド
+#        nickname: ニックネーム
+#        location: お住まい
+      blog:
+        title: タイトル
+        content: 内容
+        regist_date: 投稿日

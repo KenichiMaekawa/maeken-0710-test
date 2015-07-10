@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  #get 'home/index'
+  root to: 'home#index'
+
   resources :hoges
   #root :to => 'hoges#index'
   # The priority is based upon order of creation: first created -> highest priority.

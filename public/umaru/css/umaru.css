@@ -6,7 +6,7 @@ margin:0;
 padding:0;
 color:#333;
 font-size:76%;
-background:#ffee00 url(../images/umaru_main_bg.png) left 276px repeat-x;
+background:#ffee00 url(./umaru/images/umaru_main_bg.png) left 276px repeat-x;
 font-family:"メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
@@ -48,7 +48,7 @@ list-style:none;
 
 
 #umaruBody {
-background:url(../images/umaru_header_bg.png) left top repeat-x;
+background:url(./umaru/images/umaru_header_bg.png) left top repeat-x;
 }
 
 
@@ -59,7 +59,7 @@ background:url(../images/umaru_header_bg.png) left top repeat-x;
 ============================== */
 #umaruHeader {
 height:497px;
-background:url(../images/umaru_head_bg2.png) center top no-repeat;
+background:url(./umaru/images/umaru_head_bg2.png) center top no-repeat;
 }
 
 #umaruHeader h1,
@@ -107,12 +107,12 @@ margin:0 auto;
 ============================== */
 #umaruTokei {
 padding:10px 0 0;
-background:url(../images/umaru_photo_bg1.png) left top no-repeat;
+background:url(./umaru/images/umaru_photo_bg1.png) left top no-repeat;
 }
 
 #umaruTokeiInner {
 padding:10px 0 0;
-background:url(../images/umaru_photo_bg2.png) left top no-repeat;
+background:url(./umaru/images/umaru_photo_bg2.png) left top no-repeat;
 }
 
 #umaruTokeiModule {
@@ -146,7 +146,7 @@ left:50px;
 width:165px;
 height:146px;
 color:#ff5299;
-background:url(../images/umaru_day_bg.png) left top no-repeat;
+background:url(./umaru/images/umaru_day_bg.png) left top no-repeat;
 }
 
 #umaruToday .month {
@@ -249,7 +249,7 @@ border-radius:5px;
 #umaruDictionary #umaruDictBox .umaruDictLead {
 padding:20px 0 20px 120px;
 margin:0 20px 40px;
-background:url(../images/umaru_dict_leadbg.png) left bottom repeat-x;
+background:url(./umaru/images/umaru_dict_leadbg.png) left bottom repeat-x;
 }
 
 #umaruDictionary #umaruDictBox .umaruDictPh {
@@ -288,7 +288,7 @@ top:112px;
 right:45px;
 width:35px;
 height:15px;
-background:url(../images/umaru_dict_point.png) left top no-repeat;
+background:url(./umaru/images/umaru_dict_point.png) left top no-repeat;
 }
 
 
@@ -319,7 +319,7 @@ left:-10px;
 width:58px;
 height:58px;
 color:#fff;
-background:url(../images/archive_date_bg.png) left top no-repeat;
+background:url(./umaru/images/archive_date_bg.png) left top no-repeat;
 }
 
 #umaruArchives .archiveDay .month {
@@ -360,7 +360,7 @@ top:70px;
 left:680px;
 width:225px;
 height:259px;
-background:url(../images/ebichu_umaruill.png) left top no-repeat;
+background:url(./umaru/images/ebichu_umaruill.png) left top no-repeat;
 }
 
 #umaruEbich #ebichuIntro .ebichuAttach {
@@ -369,7 +369,7 @@ bottom:-16px;
 left:-17px;
 width:77px;
 height:142px;
-background:url(../images/umaru_ebichu_side1.png) left top no-repeat;
+background:url(./umaru/images/umaru_ebichu_side1.png) left top no-repeat;
 }
 
 #umaruEbich .ebichuProfile {
@@ -472,7 +472,7 @@ margin:0 0 30px;
 ============================== */
 #umaruFooter {
 padding:20px 0;
-background:url(../images/umaru_footer_bg.png) left top repeat;
+background:url(./umaru/images/umaru_footer_bg.png) left top repeat;
 }
 
 #umaruFooter .presentBnr {
@@ -524,7 +524,7 @@ margin:0 0 20px;
 width:280px;
 margin:10px 24px 0 0;
 padding:0 10px;
-background:url(../images/umaru_present_detailbg.jpg) left top repeat;
+background:url(./umaru/images/umaru_present_detailbg.jpg) left top repeat;
 border:2px solid #ffee00;
 border-radius:5px;
 float:left;
@@ -682,20 +682,20 @@ min-height:220px;
 display:none;}
 
 body {
-background:#ffee00 url(../images/umaru_main_bg.png) left 220px repeat-x;
+background:#ffee00 url(./umaru/images/umaru_main_bg.png) left 220px repeat-x;
 }
 
 /* ==============================
 タイトル
 ============================== */
 #umaruBody {
-background:url(../images/umaru_header_bg.png) left top repeat-x;
+background:url(./umaru/images/umaru_header_bg.png) left top repeat-x;
 background-size:165px auto;
 }
 
 #umaruHeader {
 height:auto;
-background:url(../images/umaru_head_bg2.png) center top no-repeat;
+background:url(./umaru/images/umaru_head_bg2.png) center top no-repeat;
 background-size:110% auto;
 }
 
@@ -744,13 +744,13 @@ margin:0 auto;
 ============================== */
 #umaruTokei {
 padding:8px 0 0;
-background:url(../images/umaru_photo_bg1.png) left top no-repeat;
+background:url(./umaru/images/umaru_photo_bg1.png) left top no-repeat;
 background-size:100% auto;
 }
 
 #umaruTokeiInner {
 padding:8px 0 0;
-background:url(../images/umaru_photo_bg2.png) left top no-repeat;
+background:url(./umaru/images/umaru_photo_bg2.png) left top no-repeat;
 background-size:100% auto;
 }
 
@@ -774,7 +774,7 @@ left:50px;
 width:165px;
 height:146px;
 color:#ff5299;
-background:url(../images/umaru_day_bg.png) left top no-repeat;
+background:url(./umaru/images/umaru_day_bg.png) left top no-repeat;
 font-family:"メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
@@ -889,7 +889,7 @@ border-radius:5px;
 #umaruDictionary #umaruDictBox .umaruDictLead {
 padding:20px 0 20px 120px;
 margin:0 20px 40px;
-background:url(../images/umaru_dict_leadbg.png) left bottom repeat-x;
+background:url(./umaru/images/umaru_dict_leadbg.png) left bottom repeat-x;
 }
 
 #umaruDictionary #umaruDictBox .umaruDictLead img {
@@ -933,7 +933,7 @@ top:103px;
 right:65px;
 width:35px;
 height:15px;
-background:url(../images/umaru_dict_point.png) left top no-repeat;
+background:url(./umaru/images/umaru_dict_point.png) left top no-repeat;
 }
 
 
@@ -965,7 +965,7 @@ left:-10px;
 width:58px;
 height:58px;
 color:#fff;
-background:url(../images/archive_date_bg.png) left top no-repeat;
+background:url(./umaru/images/archive_date_bg.png) left top no-repeat;
 }
 
 #umaruArchives .archiveDay .month {
@@ -1015,7 +1015,7 @@ left:auto;
 right:0;
 width:180px;
 height:259px;
-background:url(../images/ebichu_umaruill.png) left top no-repeat;
+background:url(./umaru/images/ebichu_umaruill.png) left top no-repeat;
 background-size:100% auto;l
 }
 
@@ -1025,7 +1025,7 @@ bottom:-16px;
 left:-17px;
 width:77px;
 height:142px;
-background:url(../images/umaru_ebichu_side1.png) left top no-repeat;
+background:url(./umaru/images/umaru_ebichu_side1.png) left top no-repeat;
 }
 
 #umaruEbich .ebichuProfile {
@@ -1131,7 +1131,7 @@ margin:0 0 30px;
 ============================== */
 #umaruFooter {
 padding:20px 0;
-background:url(../images/umaru_footer_bg.png) left top repeat;
+background:url(./umaru/images/umaru_footer_bg.png) left top repeat;
 }
 
 #umaruFooter .presentBnr {
@@ -1188,7 +1188,7 @@ margin:0 0 20px;
 width:30%;
 margin:8px 2% 0 0;
 padding:0 25;
-background:url(../images/umaru_present_detailbg.jpg) left top repeat;
+background:url(./umaru/images/umaru_present_detailbg.jpg) left top repeat;
 border:2px solid #ffee00;
 border-radius:5px;
 float:left;
@@ -1295,7 +1295,7 @@ text-align:right;
 
 @media (max-width: 480px){
 body {
-background:#ffee00 url(../images/umaru_main_bg.png) left 50px repeat-x;
+background:#ffee00 url(./umaru/images/umaru_main_bg.png) left 50px repeat-x;
 }
 
 .forPc {
@@ -1384,13 +1384,13 @@ margin:0 auto;
 ============================== */
 #umaruTokei {
 padding:4px 0 0;
-background:url(../images/umaru_photo_bg_smp.png) left top no-repeat;
+background:url(./umaru/images/umaru_photo_bg_smp.png) left top no-repeat;
 background-size:100% auto;
 }
 
 #umaruTokeiInner {
 padding:40px 0 0;
-background:url(../images/umaru_photo_bg_smp.png) left 36px no-repeat;
+background:url(./umaru/images/umaru_photo_bg_smp.png) left 36px no-repeat;
 background-size:100% auto;
 }
 
@@ -1413,7 +1413,7 @@ left:3%;
 width:20%;
 height:100px;
 color:#ff5299;
-background:url(../images/umaru_day_bg.png) left top no-repeat;
+background:url(./umaru/images/umaru_day_bg.png) left top no-repeat;
 background-size:100% auto;
 font-family:"メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
@@ -1557,7 +1557,7 @@ border-radius:5px;
 #umaruDictionary #umaruDictBox .umaruDictLead {
 padding:20px 0 20px 20%;
 margin:0 15px 30px;
-background:url(../images/umaru_dict_leadbg.png) left bottom repeat-x;
+background:url(./umaru/images/umaru_dict_leadbg.png) left bottom repeat-x;
 }
 
 #umaruDictionary #umaruDictBox .umaruDictLead img {
@@ -1648,7 +1648,7 @@ left:-10px;
 width:50px;
 height:50px;
 color:#fff;
-background:url(../images/archive_date_bg.png) left top no-repeat;
+background:url(./umaru/images/archive_date_bg.png) left top no-repeat;
 background-size:100%;
 }
 
@@ -1674,7 +1674,7 @@ text-align:center;
 position:relative;
 margin:0 0 20px;
 padding-bottom:55px;
-background: url(../images/umaru_ebichu_bb_smp.png) left bottom no-repeat;
+background: url(./umaru/images/umaru_ebichu_bb_smp.png) left bottom no-repeat;
 background-size:100% auto;
 }
 
@@ -1700,7 +1700,7 @@ width:30%;
 height:140px;
 margin:0 0 0 10px;
 float:right;
-background:url(../images/ebichu_umaruill.png) left top no-repeat;
+background:url(./umaru/images/ebichu_umaruill.png) left top no-repeat;
 background-size:100% auto;
 }
 
@@ -1812,7 +1812,7 @@ height:auto;
 ============================== */
 #umaruFooter {
 padding:20px 0;
-background:url(../images/umaru_footer_bg.png) left top repeat;
+background:url(./umaru/images/umaru_footer_bg.png) left top repeat;
 }
 
 #umaruFooter .presentBnr {
@@ -1878,7 +1878,7 @@ margin:0 0 20px;
 width:93%;
 margin:10px 0 0;
 padding:0 3%;
-background:url(../images/umaru_present_detailbg.jpg) left top repeat;
+background:url(./umaru/images/umaru_present_detailbg.jpg) left top repeat;
 border:2px solid #ffee00;
 border-radius:5px;
 float:left;
@@ -2061,7 +2061,7 @@ left:-10px;
 width:45px;
 height:45px;
 color:#fff;
-background:url(../images/archive_date_bg.png) left top no-repeat;
+background:url(./umaru/images/archive_date_bg.png) left top no-repeat;
 background-size:100%;
 }
 
@@ -2083,7 +2083,7 @@ text-align:center;
 position:relative;
 margin:0 0 20px;
 padding-bottom:45px;
-background: url(../images/umaru_ebichu_bb_smp.png) left bottom no-repeat;
+background: url(./umaru/images/umaru_ebichu_bb_smp.png) left bottom no-repeat;
 background-size:100% auto;
 }
 
@@ -2101,22 +2101,22 @@ display:none;
 }
 
 #umaruEbich #no3 .ebichuPhoto {
-background:url(../images/umaru_ebichu_ph3_smp.jpg) left top no-repeat;
+background:url(./umaru/images/umaru_ebichu_ph3_smp.jpg) left top no-repeat;
 background-size:100% auto;
 }
 
 #umaruEbich #no7 .ebichuPhoto {
-background:url(../images/umaru_ebichu_ph7_smp.jpg) left top no-repeat;
+background:url(./umaru/images/umaru_ebichu_ph7_smp.jpg) left top no-repeat;
 background-size:100% auto;
 }
 
 #umaruEbich #no9 .ebichuPhoto {
-background:url(../images/umaru_ebichu_ph9_smp.jpg) left top no-repeat;
+background:url(./umaru/images/umaru_ebichu_ph9_smp.jpg) left top no-repeat;
 background-size:100% auto;
 }
 
 #umaruEbich #no10 .ebichuPhoto {
-background:url(../images/umaru_ebichu_ph10_smp.jpg) left top no-repeat;
+background:url(./umaru/images/umaru_ebichu_ph10_smp.jpg) left top no-repeat;
 background-size:100% auto;
 }
 

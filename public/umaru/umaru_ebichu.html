@@ -1,0 +1,330 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="globalsign-domain-verification" content="AbzsXE0Xsp1CNrUBULAE7TjIUVSEuM2ZEhYTP5bsy1" />
+<meta name="keywords" content="美人時計,美女時計,美男時計,美声時計,bijintokei,bijin-tokei,bisei-tokei" />
+<meta name="description" content="美人時計は360人の日本美人が手書きボードで現在時刻をお知らせする「1min自動更新時計サイト」" />
+<meta http-equiv="imagetoolbar" content="no" />
+<link rel="shortcut icon" type="image/x-icon" href="/jp/favicon.ico" />
+<link rel="stylesheet" href="css/umaru.css" type="text/css" />
+<title>干物妹うまるちゃん × bijin-tokei｜美妹時計</title>
+
+<script src="js/jquery.js" language="javascript"></script>
+<script src="js/trial.link.js" language="javascript"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23794612-9']);
+  _gaq.push(['_setDomainName', 'bijint.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<script src="https://apis.google.com/js/platform.js" async defer>
+  {lang: 'ja'}
+</script>
+</head>
+
+<body>
+<!-- ********************
+SNS初期コード
+******************** -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<div id="umaruBody">
+
+<!-- ******************************
+ヘッダー部
+*************************-->
+<div id="umaruHeader">
+<h1><img src="images/umaru_h1.png" width="568" height="307" alt="干物妹うまるちゃん　アニメ化記念！ 美妹時計!!" class="forPc" />
+<img src="images/umaru_h1_smp.png" width="640" height="270" alt="" class="forSmp" /></h1>
+<div class="umaruLead">
+<p class="forPc"><img src="images/umaru_lead.png" width="448" height="155" alt="週刊ヤングジャンプで連載中「干物妹！うまるちゃん」がアニメ化し、7月より放送スタート！放送開始日まで美妹たちがカウントダウンでお知らせ！美妹たちは1時間ごとに切り替わるよ！！そしてなんと1日に4回、私立恵比寿中学のメンバーもスペシャルゲストとして登場！"/></p>
+<p class="forSmp"><img src="images/umaru_lead_smp.png" width="584" height="178" alt="週刊ヤングジャンプで連載中「干物妹！うまるちゃん」がアニメ化し、7月より放送スタート！放送開始日まで美妹たちがカウントダウンでお知らせ！美妹たちは1時間ごとに切り替わるよ！！そしてなんと1日に4回、私立恵比寿中学のメンバーもスペシャルゲストとして登場！"/></p>
+
+<div id="umaruTop"><a href="index.html"><img src="images/umaru_return_top.png" width="130" height="131" alt="TOPへ &gt;&gt;" class="forPc"/><img src="images/umaru_return_top_smp.png" width="603" height="74" alt="TOPへ &gt;&gt;" class="forSmp"/></a></div>
+
+</div>
+
+<!-- /#umaruHeader --></div>
+
+
+<!-- ******************************
+コンテンツ部
+*************************-->
+<div id="umaruContents">
+
+<!-- 私立恵比寿中学出席簿 ********** -->
+<div id="umaruEbich" class="clearfix">
+
+<div id="ebichuIntro">
+<h2><img src="images/umaru_ebichu_h2.png" width="912" height="163" alt="SPECIAL GUEST 私立恵比寿中学" class="forPc" /><img src="images/umaru_ebichu_h2_smp.png" width="640" height="159" alt="SPECIAL GUEST 私立恵比寿中学" class="forSmp" /></h2>
+<div class="umaruIllust"></div>
+<p>平均年齢16歳の8人組アイドル。通称「エビ中」、自称「King of 学芸会」。<br />
+「仮契約のシンデレラ」でデビュー以後、全シングルがオリコントップ10入りを記録。<br />
+今年1月にリリースされた2nd full Album『金八』で史上初「Mステに出たい歌」をミュージックステーションにてパフォーマンス。大反響に応えての連続出演で全国の話題を集める。<br />
+アリーナクラスのコンサートから、夏の単独野外フェス、各メンバーのTV、ラジオ、映画、舞台、ファッションモデルなど多岐に渡る活動で、「ブレイク必至」の存在として注目を浴びている。<br />
+6月17日に最新シングル「夏だぜジョニー」を発売、8月22日（土）には恒例の野外コンサート「ファミえん」を
+新潟・長岡市で開催。
+</p>
+
+<div class="ebichuAttach"></div>
+</div>
+
+<div id="no3" class="ebichuProfile">
+<div class="ebichuDetail clearfix">
+<div class="ebichuPhoto"><img src="images/umaru_ebichu_ph3.jpg" width="176" height="260" alt="真山 りか"/>
+<div class="phCover"><img src="images/ebichu_cover.png" width="176" height="260" alt=""/></div></div>
+
+<div class="ebichuText">
+<p>出席番号 <strong>3</strong>番</p>
+<h3>真山 りか</h3>
+
+<dl>
+<dt>生年月日</dt>
+<dd>1996年12月16日</dd>
+
+<dt>身長</dt>
+<dd>154.2cm</dd>
+
+<dt>血液型</dt>
+<dd>A型</dd>
+
+<dt>出身地</dt>
+<dd>東京都</dd>
+
+<dt>特技</dt>
+<dd class="ability">マラソン・サッカー・人を笑わせること</dd>
+</dl>
+<!-- /.ebichuText --></div>
+<!-- /.ebichuDetail--></div>
+<!-- /.ebichuProfile --></div>
+
+
+
+<div id="no7" class="ebichuProfile">
+<div class="ebichuDetail clearfix">
+<div class="ebichuPhoto"><img src="images/umaru_ebichu_ph7.jpg" width="176" height="260" alt="星名 美怜"/><div class="phCover"><img src="images/ebichu_cover.png" width="176" height="260" alt=""/></div></div>
+
+<div class="ebichuText">
+<p>出席番号 <strong>7</strong>番</p>
+<h3>星名 美怜</h3>
+
+<dl>
+<dt>生年月日</dt>
+<dd>1997年11月2日</dd>
+
+<dt>身長</dt>
+<dd>159.6cm</dd>
+
+<dt>血液型</dt>
+<dd>B型</dd>
+
+<dt>出身地</dt>
+<dd>神奈川県</dd>
+
+<dt>特技</dt>
+<dd class="ability">チア・リーディング</dd>
+</dl>
+<!-- /.ebichuText --></div>
+<!-- /.ebichuDetail--></div>
+<!-- /.ebichuProfile --></div>
+
+
+
+<div id="no9" class="ebichuProfile">
+<div class="ebichuDetail clearfix">
+<div class="ebichuPhoto"><img src="images/umaru_ebichu_ph9.jpg" width="176" height="260" alt="松野 莉奈"/><div class="phCover"><img src="images/ebichu_cover.png" width="176" height="260" alt=""/></div></div>
+
+<div class="ebichuText">
+<p>出席番号 <strong>9</strong>番</p>
+<h3>松野 莉奈</h3>
+
+<dl>
+<dt>生年月日</dt>
+<dd>1998年7月16日</dd>
+
+<dt>身長</dt>
+<dd>169.5cm</dd>
+
+<dt>血液型</dt>
+<dd>A型</dd>
+
+<dt>出身地</dt>
+<dd>東京都</dd>
+
+<dt>特技</dt>
+<dd class="ability">スイミング</dd>
+</dl>
+<!-- /.ebichuText --></div>
+<!-- /.ebichuDetail--></div>
+<!-- /.ebichuProfile --></div>
+
+
+
+<div id="no10" class="ebichuProfile">
+<div class="ebichuDetail clearfix">
+<div class="ebichuPhoto"><img src="images/umaru_ebichu_ph10.jpg" width="176" height="260" alt=""/><div class="phCover"><img src="images/ebichu_cover.png" width="176" height="260" alt=""/></div></div>
+
+<div class="ebichuText">
+<p>出席番号 <strong>10</strong>番</p>
+<h3>柏木ひなた</h3>
+
+<dl>
+<dt>生年月日</dt>
+<dd>1999年3月29日</dd>
+
+<dt>身長</dt>
+<dd>156cm</dd>
+
+<dt>血液型</dt>
+<dd>B型</dd>
+
+<dt>出身地</dt>
+<dd>千葉県</dd>
+
+<dt>特技</dt>
+<dd class="ability">ダンス、側転</dd>
+</dl>
+<!-- /.ebichuText --></div>
+<!-- /.ebichuDetail--></div>
+<!-- /.ebichuProfile --></div>
+
+<div class="ebichuBnr"><a href="http://www.sonymusic.co.jp/Music/Info/ebichu/20150617/"><img src="images/natudaze_banner.jpg" width="396" height="100" alt="私立恵比寿中学8thシングル「夏だぜジョニー」 SPECIAL SITE &gt;&gt;"/></a></div>
+
+<!-- /#umaruEbich --></div>
+
+<!-- /#umaruContents --></div>
+
+<!-- ******************************
+フッター部
+*************************-->
+<a name="umaruFooter"></a>
+<div id="umaruFooter">
+
+<dl id="umaruPresent">
+<dt><img src="images/umaru_present_flow.png" width="940" height="29" alt="応募要項" class="forPc" />
+<img src="images/umaru_present_flow_smp.png" width="578" height="53" alt="応募要項" class="forSmp" /></dt>
+<dd class="clearfix">
+
+<div id="presentItem">
+<dl>
+<dt>賞品</dt>
+<dd>
+<img src="images/umaru_signboard.png" width="280" height="187" alt=""/><br />
+サンカクヘッド先生＆私立恵比寿中学<br />
+直筆サインボード</dd>
+
+<dt>当選人数</dt>
+<dd>1名様</dd>
+
+<dt>応募期間</dt>
+<dd>2015年6/19（金）0：00～7/15(水)23:59</dd>
+</dl>
+</div>
+
+<div id="presentFlow">
+<dl id="presentStep1">
+<dt><img src="images/umaru_present_step1.png" width="306" height="48" alt=""/></dt>
+<dd><div class="presentFlowDetail"> <a href="https://twitter.com/intent/follow?screen_name=young_jump"><img src="images/umaru_present_btn1.png" width="266" height="64" alt=""/></a>
+<p>ヤングジャンプ公式Twitterアカウント@young_jump
+をフォローしている方が、応募対象となります。</p>
+</div></dd>
+</dl>
+
+<dl id="presentStep2">
+<dt><img src="images/umaru_present_step2.png" width="306" height="40" alt=""/></dt>
+<dd><div class="presentFlowDetail"> <a href="https://twitter.com/intent/tweet?hashtags=%e3%81%86%e3%81%be%e3%82%8b%e3%81%a1%e3%82%83%e3%82%93_%e3%82%a8%e3%83%93%e4%b8%ad%e3%82%b5%e3%82%a4%e3%83%b3%e3%83%97%e3%83%ac%e3%82%bc%e3%83%b3%e3%83%88" data-widget-id="610976828673667073"><img src="images/umaru_present_btn2.png" width="266" height="64" alt=""/></a>
+<p>
+応募期間内に、本文に規定のハッシュタグ(#うまるちゃん_エビ中サインプレゼント)をつけて、参加希望の旨をツイートしてください。<br />
+例）「サインほしいです！ #うまるちゃん_エビ中サインプレゼント」</p>
+</div></dd>
+</dl>
+
+</div>
+
+<div id="presentTwitter">
+<a class="twitter-timeline" width="280" height="465" href="https://twitter.com/search?q=%E3%81%86%E3%81%BE%E3%82%8B%E3%81%A1%E3%82%83%E3%82%93%20OR%20%23%E3%81%86%E3%81%BE%E3%82%8B%E3%81%A1%E3%82%83%E3%82%93_%E3%82%A8%E3%83%93%E4%B8%AD%E3%82%B5%E3%82%A4%E3%83%B3%E3%83%97%E3%83%AC%E3%82%BC%E3%83%B3%E3%83%88%20lang%3Aja" data-widget-id="610976828673667073" data-chrome="nofooter">うまるちゃん OR #うまるちゃん_エビ中サインプレゼント に関するツイート</a>
+</div>          
+</dd>
+
+<dt><img src="images/umaru_present_announce.png" width="940" height="29" alt="抽選・当選者発表" class="forPc" />
+<img src="images/umaru_present_announce_smp.png" width="940" height="29" alt="抽選・当選者発表" class="forSmp" /></dt>
+<dd class="announce">応募締め切り後、厳正な抽選の上、当選者のTwitterアカウントへ<br class="forPc" />
+ヤングジャンプ公式アカウント（@young_jump）よりダイレクトメッセージを送付させていただきます。<br />
+賞品発送の為にお名前、ご住所、お電話番号等を返信していただきますので予めご了承ください。<br />
+ダイレクトメッセージに記載された返信日時までにご返信が確認できなかった場合は、当選権利は無効となりますのでご注意ください。</dd>
+
+<dt><img src="images/umaru_present_attention.png" width="940" height="29" alt="ご注意事項" class="forPc" />
+<img src="images/umaru_present_attention_smp.png" width="940" height="29" alt="ご注意事項" class="forSmp" /></dt>
+<dd class="attention">
+<ul>
+<li>応募期間中にヤングジャンプ公式アカウントのフォローを解除した場合は、応募が無効となりますのでご注意ください。</li>
+<li>ツイートの回数によって、当選確率が変動することはございません。</li>
+<li>当選者は日本国内にお住まいの方で、かつ賞品のお届け先が日本国内の方に限らせていただきます。</li>
+<li>当選賞品の換金、返品はできませんので予めご了承ください。</li>
+<li>お客様の住所・転居先が不明などで賞品がお届けできない場合は、当選を無効とさせていただきます</li>
+</ul>
+
+<p>※個人情報について</p>
+<ul>
+<li>当選者よりお預かりした個人情報は本企画遂行以外の目的で利用することはありません。</li>
+<li>法令により適用を除外されている場合を除き、原則として事前に同意を得ずに第三者に提供することはありません。</li>
+</ul>
+</dd>
+</dl>
+
+
+<dl class="clearfix" id="relativeBnr">
+<dt><a href="http://youngjump.jp/manga/umaruchan/"><img src="images/umaru_comic_bnr.png" width="324" height="56" alt="干物妹うまるちゃん 原作公式サイト &gt;&gt;"/></a></dt>
+<dd>
+週刊ヤングジャンプにて好評連載中!!<br />
+コミックス1~6巻好評発売中!!<br />
+JUMP jBOOKSより8月ノベライズ版発売予定!!</dd>
+
+<dt class="animeBnr"><a href="http://umaru-ani.me/"><img src="images/umaru_anime_bnr.png" width="324" height="72" alt="干物妹うまるちゃん アニメ公式サイト &gt;&gt;"/></a></dt>
+<dd>
+ABC：7月8日より　毎週水曜26:14～<br />
+TOKYO MX：7月12日より　毎週日曜24:00～<br />
+BS11：7月12日より　毎週日曜24:30～<br />
+AT-X：7月12日より　毎週日曜24:00～<br />
+※リピート放送　毎週月曜22：30～/毎週水曜14：30～/毎週土曜6：30～</dd>
+
+<dt class="spinoffBnr"><a href="http://tonarinoyj.jp/manga/umaruchans/"><img src="images/umaru_spinoff_bnr.png" width="324" height="100" alt="作者自分番外編!!  ひもうと！うまるちゃんS サイト &gt;&gt;"/></a></dt>
+<dd>
+週刊ヤングジャンプで大人気連載中『干物妹！うまるちゃん』を、<br />
+作者サンカクヘッドが勝手に（？）自分で（!?）スピンオフ（!!?）<br />
+本編を読んでから読むと100倍楽しめる♪<br />
+本編を読まなくても楽しめる♪<br />
+パラレル世界の“うまるちゃんS”ここに見参ッ!!!!!<br />
+コミックス1巻　8月発売予定!</dd>
+</dl>
+
+<p class="copyright">&copy;サンカクヘッド / 集英社</p>
+<!-- /#umaruFooter --></div>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<!-- /#umaruBody --></div>
+
+</body>
+</html>

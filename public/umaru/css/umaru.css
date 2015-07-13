@@ -1,0 +1,2237 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+margin:0;
+padding:0;
+color:#333;
+font-size:76%;
+background:#ffee00 url(../images/umaru_main_bg.png) left 276px repeat-x;
+font-family:"メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+margin:0;
+padding:0;
+font-size:100%;
+}
+
+img {
+border:0;
+vertical-align:bottom;
+}
+
+a:hover img {
+opacity:0.8;
+}
+
+p {
+margin:0;
+padding:0;
+}
+
+ul,ol {
+margin:0;
+padding:0;
+list-style:none;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+.clearfix { min-height: 1px; }
+* html .clearfix { height: 1px; }
+
+
+#umaruBody {
+background:url(../images/umaru_header_bg.png) left top repeat-x;
+}
+
+
+
+
+/* ==============================
+タイトル
+============================== */
+#umaruHeader {
+height:497px;
+background:url(../images/umaru_head_bg2.png) center top no-repeat;
+}
+
+#umaruHeader h1,
+#umaruHeader .umaruLead {
+position:relative;
+width:950px;
+margin:0 auto;
+}
+
+#umaruHeader h1 img {
+margin:0 0 0 280px;
+}
+
+#umaruHeader .umaruLead p img {
+margin:0 0 0 280px;
+}
+
+#umaruHeader .umaruLead .umaruEbichuBtn {
+position:absolute;
+top:-20px;
+right:15px;
+}
+
+#umaruHeader .umaruLead #umaruTop {
+position:absolute;
+top:0;
+right:50px;
+}
+
+
+
+
+
+/* ==============================
+コンテンツ
+============================== */
+#umaruContents {
+position:relative;
+width:950px;
+margin:0 auto;
+}
+
+/* ==============================
+美妹時計枠
+============================== */
+#umaruTokei {
+padding:10px 0 0;
+background:url(../images/umaru_photo_bg1.png) left top no-repeat;
+}
+
+#umaruTokeiInner {
+padding:10px 0 0;
+background:url(../images/umaru_photo_bg2.png) left top no-repeat;
+}
+
+#umaruTokeiModule {
+position:relative;
+width:590px;
+height:450px;
+margin:0 auto;
+background-color:#fff;
+}
+
+#umaruTokeiModule #phCover {
+position:absolute;
+top:0;
+left:0;
+width:100%;
+}
+
+#umaruTokeiModule:hover img {
+opacity:1;
+}
+
+#umaruTokeiModule #phCover img {
+width:100%;
+height:auto;
+}
+
+#umaruToday {
+position:absolute;
+top:-50px;
+left:50px;
+width:165px;
+height:146px;
+color:#ff5299;
+background:url(../images/umaru_day_bg.png) left top no-repeat;
+}
+
+#umaruToday .month {
+position:absolute;
+top:28px;
+left:32px;
+font-size:48px;
+}
+
+#umaruToday .day {
+position:absolute;
+display:inline-block;
+top:60px;
+left:70px;
+font-size:48px;
+width:80px;
+text-align:center;
+}
+
+#umaruTokeiInner #umaruPrev {
+position:absolute;
+top:170px;
+left:40px;
+}
+
+#umaruTokeiInner #umaruNext {
+position:absolute;
+top:170px;
+right:40px;
+}
+
+#umaruTokeiInner #umaruTop {
+position:absolute;
+top:0;
+right:20px;
+}
+
+
+.snsBox {
+margin:20px 170px 0 0;
+text-align:right;
+}
+
+.snsBox li {
+display:inline;
+margin:0 0 0 5px;
+}
+
+.snsBox li.line img {
+position:relative;
+top:-4px;
+}
+
+
+/* ==============================
+試し読み
+============================== */
+#umaruTrial {
+margin:0 0 20px;
+text-align:center;
+}
+
+#umaruTrial .trialBtn {
+margin-bottom:15px;
+}
+
+#umaruTrial .forBeginnerBtn {
+margin-bottom:20px;
+}
+
+#umaruTrial .umaruStory {
+
+}
+
+
+/* ==============================
+干物妹辞典
+============================== */
+#umaruDictionary {
+position:relative;
+margin:0 0 30px;
+padding:10px 0 0;
+}
+
+#umaruDictionary h2 {
+position:absolute;
+top:0;
+left:0;
+}
+
+#umaruDictionary #umaruDictBox {
+width:885px;
+min-height:315px;
+margin:0 0 0 51px;
+padding:0 0 15px;
+background-color:#fff;
+border-radius:5px;
+}
+
+#umaruDictionary #umaruDictBox .umaruDictLead {
+padding:20px 0 20px 120px;
+margin:0 20px 40px;
+background:url(../images/umaru_dict_leadbg.png) left bottom repeat-x;
+}
+
+#umaruDictionary #umaruDictBox .umaruDictPh {
+position:absolute;
+top:110px;
+left:200px;
+}
+
+#umaruDictionary #umaruDictBox .umaruDictDetail {
+min-height:160px;
+margin:0 20px 0 420px;
+padding:15px 15px 15px 30px;
+background:#ff5299;
+color:#fff;
+border-radius:5px;
+}
+
+#umaruDictBox .umaruDictDetail h3 {
+padding:0 0 0 30px;
+color:#ffee00;
+font-size:220%;
+}
+
+#umaruDictBox .umaruDictDetail p {
+padding:0 0 10px 30px;
+}
+
+#umaruDictBox .umaruDictDetail p.yomi {
+margin:0 0 10px;
+border-bottom:1px solid #ff86b8;
+}
+
+#umaruDictBox .umaruDictIcon {
+position:absolute;
+top:112px;
+right:45px;
+width:35px;
+height:15px;
+background:url(../images/umaru_dict_point.png) left top no-repeat;
+}
+
+
+/* ==============================
+バックナンバー
+============================== */
+#umaruArchives h2 {
+margin:0 0 20px;
+text-align:center;
+}
+
+#umaruArchives ul {
+position:relative;
+}
+
+#umaruArchives ul li {
+position:relative;
+width:220px;
+margin:0 7px 25px;
+float:left;
+_display:none;
+}
+
+#umaruArchives .archiveDay {
+position:absolute;
+top:-21px;
+left:-10px;
+width:58px;
+height:58px;
+color:#fff;
+background:url(../images/archive_date_bg.png) left top no-repeat;
+}
+
+#umaruArchives .archiveDay .month {
+position:absolute;
+top:15px;
+left:17px;
+}
+
+#umaruArchives .archiveDay .day {
+position:absolute;
+top:27px;
+left:24px;
+width:20px;
+text-align:center;
+}
+
+
+/* ==============================
+恵比寿中学校プロフィール
+============================== */
+#umaruEbich #ebichuIntro {
+position:relative;
+margin:0 0 40px 20px;
+}
+
+#umaruEbich #ebichuIntro p {
+margin:0 0 0 30px;
+padding:10px 70px 20px 30px;
+width:600px;
+line-height:150%;
+background-color:#fff;
+border-radius:0 0 5px 5px / 0 0 5px 5px;
+}
+
+#umaruEbich #ebichuIntro .umaruIllust {
+position:absolute;
+top:70px;
+left:680px;
+width:225px;
+height:259px;
+background:url(../images/ebichu_umaruill.png) left top no-repeat;
+}
+
+#umaruEbich #ebichuIntro .ebichuAttach {
+position:absolute;
+bottom:-16px;
+left:-17px;
+width:77px;
+height:142px;
+background:url(../images/umaru_ebichu_side1.png) left top no-repeat;
+}
+
+#umaruEbich .ebichuProfile {
+background-color:#ff5299;
+width:420px;
+padding:10px;
+border-radius:5px;
+}
+
+#umaruEbich .ebichuProfile .ebichuDetail {
+background-color:#fff;
+width:420px;
+padding:0;
+border-radius:5px;
+}
+
+#umaruEbich .ebichuProfile .ebichuPhoto {
+position:relative;
+width:176px;
+padding:0;
+border-radius:5px 0 0 5px / 5px 0 0 5px;
+float:left;
+_display:inline;
+}
+
+#umaruEbich .ebichuProfile .ebichuPhoto .phCover {
+position:absolute;
+top:0;
+left:0;
+}
+
+#umaruEbich .ebichuProfile .ebichuText {
+width:244px;
+float:right;
+_display:inline;
+}
+
+#umaruEbich .ebichuProfile .ebichuText p {
+margin:0 0 7px;
+padding:5px 10px;
+background-color:#ffe3ee;
+}
+
+#umaruEbich .ebichuProfile .ebichuText p strong {
+color:#ff5299;
+font-size:120%;
+}
+
+#umaruEbich .ebichuProfile .ebichuText h3 {
+color:#ff5299;
+margin:0 0 12px;
+padding:0 10px;
+font-size:220%;
+}
+
+#umaruEbich .ebichuProfile .ebichuText dl {
+margin:0 10px;
+}
+
+#umaruEbich .ebichuProfile .ebichuText dt {
+width:80px;
+float:left;
+font-size:110%;
+color:#666;
+font-weight:bold;
+}
+
+#umaruEbich .ebichuProfile .ebichuText dd {
+margin:0 0 5px;
+padding:0 0 3px 90px;
+border-bottom:1px solid #ccc;
+}
+
+#umaruEbich .ebichuProfile .ebichuText dd.ability {
+border-bottom:none;
+}
+
+#umaruEbich #no3,
+#umaruEbich #no9 {
+margin:0 0 20px 20px;
+float:left;
+_display:inline;
+}
+
+#umaruEbich #no7,
+#umaruEbich #no10 {
+margin:0 20px 20px 0;
+float:right;
+_display:inline;
+}
+
+#umaruEbich .ebichuBnr {
+text-align:center;
+margin:0 0 30px;
+}
+
+
+/* ==============================
+フッター
+============================== */
+#umaruFooter {
+padding:20px 0;
+background:url(../images/umaru_footer_bg.png) left top repeat;
+}
+
+#umaruFooter .presentBnr {
+margin:0 0 30px;
+text-align:center;
+}
+
+#umaruFooter dl#relativeBnr {
+width:770px;
+margin:0 auto 10px;
+}
+
+#umaruFooter dl#relativeBnr dt {
+width:324px;
+float:left;
+_display:inline;
+}
+
+#umaruFooter dl#relativeBnr dd {
+margin:0 0 10px;
+padding:5px 0 5px 340px;
+line-height:130%;
+}
+
+#umaruFooter dl#relativeBnr dt.animeBnr {
+padding:5px 0;
+}
+
+#umaruFooter dl#relativeBnr dt.spinoffBnr {
+padding:2px 0;
+}
+
+#umaruFooter dl#umaruPresent {
+width:940px;
+margin:0 auto 30px;
+padding-bottom:5px;
+border-bottom:1px dotted #999;
+}
+
+#umaruFooter dl#umaruPresent dt {
+margin:0 0 10px;
+}
+
+#umaruFooter dl#umaruPresent dd {
+margin:0 0 20px;
+}
+
+#presentItem {
+width:280px;
+margin:10px 24px 0 0;
+padding:0 10px;
+background:url(../images/umaru_present_detailbg.jpg) left top repeat;
+border:2px solid #ffee00;
+border-radius:5px;
+float:left;
+display:inline;
+}
+
+#presentItem dt {
+padding:5px 0;
+text-align:center;
+font-size:120%;
+font-weight:bold;
+background:#ffee00;
+border-radius:5px;
+}
+
+#presentItem dd {
+color:#fff;
+text-align:center;
+}
+
+#presentItem dd img {
+margin:0 auto 10px;
+}
+
+#presentFlow {
+width:306px;
+margin:0;
+float:left;
+_display:inline;
+}
+
+#presentFlow #presentStep1 {
+margin:0 0 5px;
+}
+
+#presentFlow #presentStep2 {
+margin:0;
+}
+
+#presentFlow dt {
+margin:0 !important;
+}
+
+#presentFlow #presentStep1 dd div {
+min-height:135px;
+}
+
+#presentFlow dd {
+padding:0 2px 2px;
+background:#ffee00;
+border-radius:0 0 5px 5px / 0 0 5px 5px;
+}
+
+#presentFlow dd div {
+padding:15px;
+background:#fff;
+border-radius:0 0 5px 5px / 0 0 5px 5px;
+}
+
+#presentFlow dd div img {
+margin:0 0 15px;
+}
+
+
+#presentTwitter {
+width:280px;
+margin:10px 0 0;
+float:right;
+_display:inline;
+}
+
+#umaruFooter dl#umaruPresent dd.announce {
+text-align:center;
+}
+
+#umaruFooter dl#umaruPresent dd.attention {
+padding:0 120px;
+}
+
+#umaruFooter dl#umaruPresent dd.attention ul {
+list-style:disc;
+margin:0 0 10px 25px;
+}
+
+
+#umaruFooter .copyright {
+width:950px;
+margin:0 auto;
+text-align:right;
+}
+
+@media (min-width: 481px) {
+.forSmp {
+display:none;
+}
+
+#umaruDictionary #umaruDictBox .umaruDictDetail.umaruDict0620 {
+min-height:190px;
+}
+
+#umaruDictionary #umaruDictBox .umaruDictDetail.umaruDict0622 {
+min-height:240px;
+}
+
+#umaruDictionary #umaruDictBox .umaruDictDetail.umaruDict0626 {
+min-height:300px;
+}
+
+#umaruDictionary #umaruDictBox .umaruDictDetail.umaruDict0627 {
+min-height:260px;
+}
+
+#umaruDictionary #umaruDictBox .umaruDictDetail.umaruDict0628 {
+min-height:260px;
+}
+
+#umaruDictionary #umaruDictBox .umaruDictDetail.umaruDict0629 {
+min-height:190px;
+}
+
+#umaruDictionary #umaruDictBox .umaruDictDetail.umaruDict0630 {
+min-height:190px;
+}
+
+#umaruDictionary #umaruDictBox .umaruDictDetail.umaruDict0702 {
+min-height:180px;
+}
+
+#umaruDictionary #umaruDictBox .umaruDictDetail.umaruDict0703 {
+min-height:330px;
+}
+
+#umaruDictionary #umaruDictBox .umaruDictDetail.umaruDict0705 {
+min-height:310px;
+}
+
+#umaruDictionary #umaruDictBox .umaruDictDetail.umaruDict0706 {
+min-height:230px;
+}
+
+#umaruDictionary #umaruDictBox .umaruDictDetail.umaruDict0707 {
+min-height:230px;
+}
+
+#umaruDictionary #umaruDictBox .umaruDictDetail.umaruDict0708 {
+min-height:220px;
+}
+
+
+}
+
+
+@media (min-width: 481px) and (max-width: 768px){
+.forSmp {
+display:none;}
+
+body {
+background:#ffee00 url(../images/umaru_main_bg.png) left 220px repeat-x;
+}
+
+/* ==============================
+タイトル
+============================== */
+#umaruBody {
+background:url(../images/umaru_header_bg.png) left top repeat-x;
+background-size:165px auto;
+}
+
+#umaruHeader {
+height:auto;
+background:url(../images/umaru_head_bg2.png) center top no-repeat;
+background-size:110% auto;
+}
+
+#umaruHeader h1,
+#umaruHeader .umaruLead {
+position:relative;
+width:100%;
+margin:0 auto;
+}
+
+#umaruHeader h1 img {
+width:60%;
+height:auto;
+margin:0 0 0 220px;
+}
+
+#umaruHeader .umaruLead p img {
+margin:0 0 0 80px;
+}
+
+
+#umaruHeader .umaruLead .umaruEbichuBtn {
+position:absolute;
+top:-20px;
+right:15px;
+}
+
+#umaruHeader .umaruLead #umaruTop {
+position:absolute;
+top:0;
+right:50px;
+}
+
+
+/* ==============================
+コンテンツ
+============================== */
+#umaruContents {
+position:relative;
+width:100%;
+margin:0 auto;
+}
+
+/* ==============================
+美妹時計枠
+============================== */
+#umaruTokei {
+padding:8px 0 0;
+background:url(../images/umaru_photo_bg1.png) left top no-repeat;
+background-size:100% auto;
+}
+
+#umaruTokeiInner {
+padding:8px 0 0;
+background:url(../images/umaru_photo_bg2.png) left top no-repeat;
+background-size:100% auto;
+}
+
+#umaruTokeiModule {
+position:relative;
+width:476px;
+height:363px;
+margin:0 auto;
+background-color:#fff;
+}
+
+#umaruTokeiModule img {
+width:476px;
+height:auto;
+}
+
+#umaruToday {
+position:absolute;
+top:-50px;
+left:50px;
+width:165px;
+height:146px;
+color:#ff5299;
+background:url(../images/umaru_day_bg.png) left top no-repeat;
+font-family:"メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+#umaruToday .month {
+position:absolute;
+top:28px;
+left:32px;
+font-size:48px;
+}
+
+#umaruToday .day {
+position:absolute;
+display:inline-block;
+top:60px;
+left:70px;
+font-size:48px;
+width:80px;
+text-align:center;
+}
+
+#umaruTokeiInner #umaruPrev {
+position:absolute;
+top:120px;
+left:20px;
+}
+
+#umaruTokeiInner #umaruNext {
+position:absolute;
+top:120px;
+right:20px;
+}
+
+#umaruTokeiInner #umaruTop {
+position:absolute;
+top:-20px;
+right:0;
+}
+
+#umaruTokeiInner #umaruTop img {
+width:80%;
+height:auto;}
+
+
+.snsBox {
+margin:20px 17% 0 0;
+text-align:right;
+}
+
+.snsBox li {
+display:inline;
+margin:0 0 0 5px;
+}
+
+.snsBox li.line img {
+position:relative;
+top:-4px;
+}
+
+.snsBox .forPc {
+display:none;}
+
+
+/* ==============================
+試し読み
+============================== */
+#umaruTrial {
+margin:0 0 20px;
+text-align:center;
+}
+
+#umaruTrial h2 img {
+width:95%;
+height:auto;}
+
+#umaruTrial .trialBtn {
+margin-bottom:15px;
+}
+
+#umaruTrial .forBeginnerBtn {
+margin-bottom:20px;
+}
+
+#umaruTrial .umaruStory {
+
+}
+
+
+/* ==============================
+干物妹辞典
+============================== */
+#umaruDictionary {
+position:relative;
+margin:0 0 30px 2%;
+padding:10px 0 0;
+}
+
+#umaruDictionary h2 {
+position:absolute;
+top:0;
+left:0;
+}
+
+#umaruDictionary #umaruDictBox {
+width:680px;
+min-height:315px;
+margin:0 0 0 51px;
+padding:0 0 15px;
+background-color:#fff;
+border-radius:5px;
+}
+
+#umaruDictionary #umaruDictBox .umaruDictLead {
+padding:20px 0 20px 120px;
+margin:0 20px 40px;
+background:url(../images/umaru_dict_leadbg.png) left bottom repeat-x;
+}
+
+#umaruDictionary #umaruDictBox .umaruDictLead img {
+width:100%;
+height:auto;
+}
+
+#umaruDictionary #umaruDictBox .umaruDictPh {
+position:absolute;
+top:110px;
+left:200px;
+}
+
+#umaruDictionary #umaruDictBox .umaruDictDetail {
+min-height:160px;
+margin:0 20px 0 420px;
+padding:15px 15px 15px 30px;
+background:#ff5299;
+color:#fff;
+border-radius:5px;
+}
+
+#umaruDictBox .umaruDictDetail h3 {
+padding:0 0 0 30px;
+color:#ffee00;
+font-size:200%;
+}
+
+#umaruDictBox .umaruDictDetail p {
+padding:0 0 10px 30px;
+}
+
+#umaruDictBox .umaruDictDetail p.yomi {
+margin:0 0 10px;
+border-bottom:1px solid #ff86b8;
+}
+
+#umaruDictBox .umaruDictIcon {
+position:absolute;
+top:103px;
+right:65px;
+width:35px;
+height:15px;
+background:url(../images/umaru_dict_point.png) left top no-repeat;
+}
+
+
+/* ==============================
+バックナンバー
+============================== */
+#umaruArchives h2 {
+margin:0 0 20px;
+text-align:center;
+}
+
+#umaruArchives ul {
+position:relative;
+margin:0 0 0 4%;
+}
+
+#umaruArchives ul li {
+position:relative;
+width:220px;
+margin:0 7px 25px;
+float:left;
+_display:none;
+}
+
+#umaruArchives .archiveDay {
+position:absolute;
+top:-21px;
+left:-10px;
+width:58px;
+height:58px;
+color:#fff;
+background:url(../images/archive_date_bg.png) left top no-repeat;
+}
+
+#umaruArchives .archiveDay .month {
+position:absolute;
+top:15px;
+left:17px;
+}
+
+#umaruArchives .archiveDay .day {
+position:absolute;
+top:27px;
+left:24px;
+width:20px;
+text-align:center;
+}
+
+
+/* ==============================
+恵比寿中学校プロフィール
+============================== */
+#umaruEbich #ebichuIntro {
+position:relative;
+margin:0 0 40px 20px;
+}
+
+#umaruEbich #ebichuIntro h2 {
+margin:0 0 0 7px;
+}
+#umaruEbich #ebichuIntro h2 img {
+width:100%;
+height:auto;
+}
+
+#umaruEbich #ebichuIntro p {
+margin:0 0 0 30px;
+padding:10px 70px 20px 30px;
+width:480px;
+line-height:150%;
+background-color:#fff;
+border-radius:0 0 5px 5px / 0 0 5px 5px;
+}
+
+#umaruEbich #ebichuIntro .umaruIllust {
+position:absolute;
+top:70px;
+left:auto;
+right:0;
+width:180px;
+height:259px;
+background:url(../images/ebichu_umaruill.png) left top no-repeat;
+background-size:100% auto;l
+}
+
+#umaruEbich #ebichuIntro .ebichuAttach {
+position:absolute;
+bottom:-16px;
+left:-17px;
+width:77px;
+height:142px;
+background:url(../images/umaru_ebichu_side1.png) left top no-repeat;
+}
+
+#umaruEbich .ebichuProfile {
+background-color:#ff5299;
+width:90%;
+padding:10px;
+border-radius:5px;
+}
+
+#umaruEbich .ebichuProfile .ebichuDetail {
+background-color:#fff;
+width:100%;
+padding:0;
+border-radius:5px;
+}
+
+#umaruEbich .ebichuProfile .ebichuPhoto {
+width:25%;
+padding:0;
+border-radius:5px 0 0 5px / 5px 0 0 5px;
+float:left;
+_display:inline;
+}
+
+#umaruEbich .ebichuProfile .ebichuPhoto .phCover {
+position:absolute;
+top:0;
+left:0;
+width:100%;}
+
+#umaruEbich .ebichuProfile .ebichuPhoto img {
+width:100%;
+height:auto;}
+
+#umaruEbich .ebichuProfile .ebichuText {
+width:75%;
+float:right;
+_display:inline;
+}
+
+#umaruEbich .ebichuProfile .ebichuText p {
+margin:0 0 7px;
+padding:5px 10px;
+background-color:#ffe3ee;
+}
+
+#umaruEbich .ebichuProfile .ebichuText p strong {
+color:#ff5299;
+font-size:120%;
+}
+
+#umaruEbich .ebichuProfile .ebichuText h3 {
+color:#ff5299;
+margin:0 0 12px;
+padding:0 10px;
+font-size:220%;
+}
+
+#umaruEbich .ebichuProfile .ebichuText dl {
+margin:0 10px;
+}
+
+#umaruEbich .ebichuProfile .ebichuText dt {
+width:60px;
+float:left;
+font-size:110%;
+color:#666;
+font-weight:bold;
+}
+
+#umaruEbich .ebichuProfile .ebichuText dd {
+margin:0 0 5px;
+padding:0 0 3px 70px;
+border-bottom:1px solid #ccc;
+}
+
+#umaruEbich .ebichuProfile .ebichuText dd.ability {
+border-bottom:none;
+}
+
+#umaruEbich #no3,
+#umaruEbich #no9 {
+margin:0 auto 20px;
+float:none;
+_display:inline;
+}
+
+#umaruEbich #no7,
+#umaruEbich #no10 {
+margin:0 auto 20px;
+float:none;
+_display:inline;
+}
+
+#umaruEbich .ebichuBnr {
+text-align:center;
+margin:0 0 30px;
+}
+
+
+/* ==============================
+フッター
+============================== */
+#umaruFooter {
+padding:20px 0;
+background:url(../images/umaru_footer_bg.png) left top repeat;
+}
+
+#umaruFooter .presentBnr {
+margin:0 0 30px;
+text-align:center;
+}
+
+#umaruFooter dl#relativeBnr {
+width:78%;
+margin:0 auto 10px;
+}
+
+#umaruFooter dl#relativeBnr dt {
+width:324px;
+float:left;
+_display:inline;
+}
+
+#umaruFooter dl#relativeBnr dd {
+margin:0 0 10px;
+padding:5px 0 5px 340px;
+line-height:130%;
+}
+
+#umaruFooter dl#relativeBnr dt.animeBnr {
+padding:5px 0;
+}
+
+#umaruFooter dl#relativeBnr dt.spinoffBnr {
+padding:2px 0;
+}
+
+#umaruFooter dl#umaruPresent {
+width:93%;
+margin:0 auto 30px;
+padding-bottom:5px;
+border-bottom:1px dotted #999;
+}
+
+#umaruFooter dl#umaruPresent dt {
+margin:0 0 10px;
+}
+
+#umaruFooter dl#umaruPresent dt img {
+width:100%;
+height:auto;
+}
+
+#umaruFooter dl#umaruPresent dd {
+margin:0 0 20px;
+}
+
+#presentItem {
+width:30%;
+margin:8px 2% 0 0;
+padding:0 25;
+background:url(../images/umaru_present_detailbg.jpg) left top repeat;
+border:2px solid #ffee00;
+border-radius:5px;
+float:left;
+display:inline;
+}
+
+#presentItem dt {
+padding:5px 0;
+text-align:center;
+font-size:120%;
+font-weight:bold;
+background:#ffee00;
+border-radius:5px;
+}
+
+#presentItem dd {
+color:#fff;
+text-align:center;
+}
+
+#presentItem dd img {
+width:100%;
+height:auto;
+margin:0 auto 10px;
+}
+
+#presentFlow {
+width:33%;
+margin:0;
+float:left;
+_display:inline;
+}
+
+#presentFlow #presentStep1 {
+margin:0 0 5px;
+}
+
+#presentFlow #presentStep2 {
+margin:0;
+}
+
+#presentFlow dt {
+margin:0 !important;
+}
+
+#presentFlow #presentStep1 dd div {
+min-height:auto;
+}
+
+#presentFlow dd {
+padding:0 2px 2px;
+background:#ffee00;
+border-radius:0 0 5px 5px / 0 0 5px 5px;
+}
+
+#presentFlow dd div {
+padding:15px;
+background:#fff;
+border-radius:0 0 5px 5px / 0 0 5px 5px;
+}
+
+#presentFlow dd div img {
+width:100%;
+height:auto;
+margin:0 0 15px;
+}
+
+
+#presentTwitter {
+width:30%;
+margin:8px 0 0;
+float:right;
+_display:inline;
+}
+
+#umaruFooter dl#umaruPresent dd.announce {
+text-align:center;
+}
+
+#umaruFooter dl#umaruPresent dd.attention {
+padding:0 0;
+}
+
+#umaruFooter dl#umaruPresent dd.attention ul {
+list-style:disc;
+margin:0 0 10px 25px;
+}
+
+
+#umaruFooter .copyright {
+width:95%;
+margin:0 auto;
+text-align:right;
+}
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 480px){
+body {
+background:#ffee00 url(../images/umaru_main_bg.png) left 50px repeat-x;
+}
+
+.forPc {
+display:none;
+}
+
+#umaruBody {
+background:none;
+}
+
+/* ==============================
+タイトル
+============================== */
+#umaruHeader {
+height:auto;
+margin:0 0 40px;
+background:none;
+}
+
+#umaruHeader h1,
+#umaruHeader .umaruLead {
+position:relative;
+width:100%;
+margin:0 auto;
+}
+
+#umaruHeader h1 img {
+margin:0;
+width:100%;
+height:auto;
+}
+
+#umaruHeader .umaruLead p {
+text-align:center;
+}
+#umaruHeader .umaruLead p img {
+margin:0;
+width:95%;
+height:auto;
+}
+
+#umaruHeader .umaruLead .umaruEbichuBtn {
+position:relative;
+top:0;
+right:0;
+}
+
+#umaruHeader .umaruLead .umaruEbichuBtn {
+position:relative;
+margin:10px 0 0;
+top:0;
+right:0;
+text-align:center;
+}
+
+#umaruHeader .umaruLead .umaruEbichuBtn img {
+width:95%;
+height:auto;
+}
+
+#umaruHeader .umaruLead #umaruTop {
+position:relative;
+margin-top:15px;
+top:0;
+right:0;
+text-align:center;
+}
+
+#umaruHeader .umaruLead #umaruTop img {
+width:95%;
+height:auto;
+}
+
+
+/* ==============================
+コンテンツ
+============================== */
+#umaruContents {
+position:relative;
+width:100%;
+margin:0 auto;
+}
+
+/* ==============================
+美妹時計枠
+============================== */
+#umaruTokei {
+padding:4px 0 0;
+background:url(../images/umaru_photo_bg_smp.png) left top no-repeat;
+background-size:100% auto;
+}
+
+#umaruTokeiInner {
+padding:40px 0 0;
+background:url(../images/umaru_photo_bg_smp.png) left 36px no-repeat;
+background-size:100% auto;
+}
+
+#umaruTokeiModule {
+width:369px;
+height:282px;
+margin:0 0 0 11.7%;
+background-color:none !important;
+}
+
+#umaruTokeiModule img {
+width:369px;
+height:282px;
+}
+
+#umaruToday {
+position:absolute;
+top:-30px;
+left:3%;
+width:20%;
+height:100px;
+color:#ff5299;
+background:url(../images/umaru_day_bg.png) left top no-repeat;
+background-size:100% auto;
+font-family:"メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+#umaruTokeiInner #umaruToday {
+top:10px;
+}
+
+#umaruToday .month {
+position:absolute;
+top:13px;
+left:15px;
+font-size:24px;
+}
+
+#umaruToday .day {
+position:absolute;
+display:inline-block;
+top:30px;
+left:7px;
+font-size:24px;
+width:80px;
+text-align:center;
+}
+
+#umaruTokeiInner #umaruPrev {
+position:absolute;
+top:10%;
+left:10px;
+}
+
+#umaruTokeiInner #umaruNext {
+position:absolute;
+top:10%;
+right:-10px;
+}
+
+#umaruTokeiInner #umaruPrev img,
+#umaruTokeiInner #umaruNext img {
+width:50%;
+height:auto;
+}
+
+#umaruTokeiInner #umaruTop {
+position:absolute;
+top:-35px;
+right:0;
+text-align:center;
+}
+
+#umaruTokeiInner #umaruTop img {
+width:95%;
+height:auto;
+}
+
+
+.snsBox {
+margin:25px 0 20px 0;
+text-align:center;
+}
+
+.snsBox li {
+display:inline;
+margin:0 0 0 5px;
+}
+
+.snsBox li.line img {
+position:relative;
+top:-4px;
+}
+
+
+/* ==============================
+試し読み
+============================== */
+#umaruTrial {
+margin:0 0 20px;
+text-align:center;
+}
+
+#umaruTrial h2 img {
+width:100%;
+height:auto;
+}
+
+#umaruTrial .trialBtn {
+margin-bottom:15px;
+text-align:center;
+}
+
+#umaruTrial .trialBtn img {
+width:90%;
+height:auto;
+}
+
+#umaruTrial .forBeginnerBtn {
+margin-bottom:20px;
+}
+
+#umaruTrial .trialBtn img,
+#umaruTrial .forBeginnerBtn img {
+width:90%;
+height:auto;
+}
+
+#umaruTrial .umaruStory img {
+width:95%;
+height:auto;
+}
+
+
+/* ==============================
+干物妹辞典
+============================== */
+#umaruDictionary {
+position:relative;
+margin:0 0 30px;
+padding:0 0 0;
+}
+
+#umaruDictionary h2 {
+position:absolute;
+top:0;
+left:0;
+}
+
+#umaruDictionary h2 img {
+width:50%;
+height:auto;
+}
+
+#umaruDictionary #umaruDictBox {
+width:86%;
+min-height:100px;
+margin:0 auto;
+padding:0 0 15px;
+background-color:#fff;
+border-radius:5px;
+}
+
+#umaruDictionary #umaruDictBox .umaruDictLead {
+padding:20px 0 20px 20%;
+margin:0 15px 30px;
+background:url(../images/umaru_dict_leadbg.png) left bottom repeat-x;
+}
+
+#umaruDictionary #umaruDictBox .umaruDictLead img {
+width:100%;
+height:auto;
+}
+
+#umaruDictionary #umaruDictBox .umaruDictPh {
+position:relative;
+top:auto;
+left:auto;
+margin:0 0 10px;
+text-align:center;
+}
+
+#umaruDictionary #umaruDictBox .umaruDictPh img {
+width:90%;
+height:auto;
+}
+
+#umaruDictionary #umaruDictBox .umaruDictDetail {
+min-height:30px;
+margin:0 15px;
+padding:15px 15px;
+background:#ff5299;
+color:#fff;
+border-radius:5px;
+}
+
+#umaruDictBox .umaruDictDetail h3 {
+display:inline;
+padding:0;
+color:#ffee00;
+font-size:18px;
+}
+
+#umaruDictBox .umaruDictDetail p {
+margin:10px 0 0;
+padding:10px 0 0;
+border-top:1px solid #ff86b8;
+}
+
+#umaruDictBox .umaruDictDetail p.yomi {
+display:inline;
+margin:0;
+border:none;
+}
+
+#umaruDictBox .umaruDictIcon {
+display:none;}
+
+
+/* ==============================
+バックナンバー
+============================== */
+#umaruArchives h2 {
+margin:0 0 20px;
+text-align:center;
+}
+
+#umaruArchives h2 img {
+width:50%;
+height:auto;
+}
+
+#umaruArchives ul {
+margin:0 0 0 2%;
+position:relative;
+}
+
+#umaruArchives ul li {
+position:relative;
+width:45%;
+margin:0 2% 25px;
+float:left;
+_display:none;
+}
+
+#umaruArchives ul li img {
+width:100%;
+height:auto;
+}
+
+#umaruArchives .archiveDay {
+position:absolute;
+top:-21px;
+left:-10px;
+width:50px;
+height:50px;
+color:#fff;
+background:url(../images/archive_date_bg.png) left top no-repeat;
+background-size:100%;
+}
+
+#umaruArchives .archiveDay .month {
+position:absolute;
+top:25%;
+left:30%;
+}
+
+#umaruArchives .archiveDay .day {
+position:absolute;
+top:50%;
+left:40%;
+width:20px;
+text-align:center;
+}
+
+
+/* ==============================
+恵比寿中学校プロフィール
+============================== */
+#umaruEbich #ebichuIntro {
+position:relative;
+margin:0 0 20px;
+padding-bottom:55px;
+background: url(../images/umaru_ebichu_bb_smp.png) left bottom no-repeat;
+background-size:100% auto;
+}
+
+#umaruEbich #ebichuIntro h2 img {
+width:100%;
+height:auto;
+}
+
+#umaruEbich #ebichuIntro p {
+margin:0;
+padding:10px 5% 0;
+width:auto;
+line-height:150%;
+background:#fff;
+border-radius:0;
+}
+
+#umaruEbich #ebichuIntro .umaruIllust {
+position:relative;
+top:0;
+left:0;
+width:30%;
+height:140px;
+margin:0 0 0 10px;
+float:right;
+background:url(../images/ebichu_umaruill.png) left top no-repeat;
+background-size:100% auto;
+}
+
+
+#umaruEbich #ebichuIntro .ebichuAttach {
+display:none;
+}
+
+#umaruEbich .ebichuProfile {
+background-color:#ff5299;
+width:90%;
+padding:10px;
+border-radius:5px;
+}
+
+#umaruEbich .ebichuProfile .ebichuDetail {
+background-color:#fff;
+width:100%;
+padding:0;
+border-radius:5px;
+}
+
+#umaruEbich .ebichuProfile .ebichuPhoto {
+width:45%;
+padding:0;
+border-radius:5px 0 0 5px / 5px 0 0 5px;
+float:left;
+_display:inline;
+}
+
+#umaruEbich .ebichuProfile .ebichuPhoto img {
+width:100%;
+height:auto;
+}
+
+#umaruEbich .ebichuProfile .ebichuText {
+width:55%;
+float:right;
+_display:inline;
+}
+
+#umaruEbich .ebichuProfile .ebichuText p {
+margin:0 0 7px;
+padding:5px 10px;
+background-color:#ffe3ee;
+}
+
+#umaruEbich .ebichuProfile .ebichuText p strong {
+color:#ff5299;
+font-size:120%;
+}
+
+#umaruEbich .ebichuProfile .ebichuText h3 {
+color:#ff5299;
+margin:0 0 12px;
+padding:0 10px;
+font-size:22px;
+}
+
+#umaruEbich .ebichuProfile .ebichuText dl {
+margin:0 10px;
+}
+
+#umaruEbich .ebichuProfile .ebichuText dt {
+width:60px;
+float:left;
+font-size:110%;
+color:#666;
+font-weight:bold;
+}
+
+#umaruEbich .ebichuProfile .ebichuText dd {
+margin:0 0 5px;
+padding:0 0 3px 60px;
+border-bottom:1px solid #ccc;
+}
+
+#umaruEbich .ebichuProfile .ebichuText dd.ability {
+border-bottom:none;
+}
+
+#umaruEbich #no3,
+#umaruEbich #no9 {
+margin:0 auto 20px;
+float:none;
+_display:inline;
+}
+
+#umaruEbich #no7,
+#umaruEbich #no10 {
+margin:0 auto 20px;
+float:none;
+_display:inline;
+}
+
+#umaruEbich .ebichuBnr {
+text-align:center;
+margin:0 0 30px;
+}
+
+#umaruEbich .ebichuBnr img {
+width:80%;
+height:auto;
+}
+
+
+/* ==============================
+フッター
+============================== */
+#umaruFooter {
+padding:20px 0;
+background:url(../images/umaru_footer_bg.png) left top repeat;
+}
+
+#umaruFooter .presentBnr {
+margin:0 0 30px;
+text-align:center;
+}
+
+#umaruFooter .presentBnr img {
+width:95%;
+height:auto;
+}
+
+#umaruFooter dl#relativeBnr {
+width:100%;
+margin:0 auto 10px;
+}
+
+#umaruFooter dl#relativeBnr dt {
+width:100%;
+text-align:center;
+float:none;
+}
+
+#umaruFooter dl#relativeBnr dt img {
+width:95%;
+height:auto;
+}
+
+#umaruFooter dl#relativeBnr dd {
+margin:0 0 10px;
+padding:5px 5px 5px 20%;
+line-height:130%;
+}
+
+#umaruFooter dl#relativeBnr dt.animeBnr {
+padding:5px 0;
+}
+
+#umaruFooter dl#relativeBnr dt.spinoffBnr {
+padding:2px 0;
+}
+
+#umaruFooter dl#umaruPresent {
+width:95%;
+margin:0 auto 30px;
+padding-bottom:5px;
+border-bottom:1px dotted #999;
+}
+
+#umaruFooter dl#umaruPresent dt {
+margin:0 0 10px;
+}
+
+#umaruFooter dl#umaruPresent dt img {
+width:100%;
+height:auto;}
+
+#umaruFooter dl#umaruPresent dd {
+margin:0 0 20px;
+}
+
+#presentItem {
+width:93%;
+margin:10px 0 0;
+padding:0 3%;
+background:url(../images/umaru_present_detailbg.jpg) left top repeat;
+border:2px solid #ffee00;
+border-radius:5px;
+float:left;
+display:inline;
+}
+
+#presentItem dt {
+padding:5px 0;
+text-align:center;
+font-size:120%;
+font-weight:bold;
+background:#ffee00;
+border-radius:5px;
+}
+
+#presentItem dd {
+color:#fff;
+text-align:center;
+}
+
+#presentItem dd img {
+margin:0 auto 10px;
+}
+
+#presentFlow {
+width:100%;
+margin:0;
+float:left;
+_display:inline;
+}
+
+#presentFlow #presentStep1 {
+width:48%;
+float:left;
+margin:0 0 5px;
+}
+
+#presentFlow #presentStep2 {
+width:48%;
+float:right;
+margin:5px 0;
+}
+
+#presentFlow dt {
+margin:0 !important;
+}
+
+#presentFlow #presentStep1 dd div,
+#presentFlow #presentStep2 dd div {
+min-height:160px;
+}
+
+#presentFlow dd {
+padding:0 2px 2px;
+background:#ffee00;
+border-radius:0 0 5px 5px / 0 0 5px 5px;
+}
+
+#presentFlow dd div {
+padding:15px 10px;
+background:#fff;
+border-radius:0 0 5px 5px / 0 0 5px 5px;
+}
+
+#presentFlow dd div img {
+width:100%;
+height:auto;
+margin:0 0 15px;
+}
+
+
+#presentTwitter {
+width:100%;
+margin:0;
+text-align:center;
+float:none;
+_display:inline;
+}
+
+#umaruFooter dl#umaruPresent dd.announce {
+text-align:left;
+}
+
+#umaruFooter dl#umaruPresent dd.attention {
+padding:0;
+}
+
+#umaruFooter dl#umaruPresent dd.attention ul {
+list-style:disc;
+margin:0 0 10px 25px;
+}
+
+
+#umaruFooter .copyright {
+width:95%;
+margin:0 auto;
+text-align:right;
+}}
+
+
+@media (max-width: 440px){
+#umaruTokeiModule {
+width:338px;
+height:258px;
+margin:0 0 0 11.7%;
+background-color:none;
+}
+
+#umaruTokeiModule img {
+width:338px;
+height:auto;
+}
+
+}
+
+@media (max-width: 400px){
+#umaruTokeiModule {
+width:308px;
+height:235px;
+margin:0 0 0 11.7%;
+background-color:none;
+}
+
+#umaruTokeiModule img {
+width:308px;
+height:auto;
+}
+
+}
+
+@media (max-width: 360px){
+#umaruTokeiModule {
+width:280px;
+height:214px;
+margin:0 0 0 11.7%;
+background-color:none;
+}
+
+#umaruTokeiModule img {
+width:280px;
+height:auto;
+}
+
+}
+
+@media (max-width: 320px){
+#umaruTokeiModule {
+width:250px;
+height:190px;
+margin:0 0 0 11.7%;
+background-color:none;
+}
+
+#umaruTokeiModule img {
+width:250px;
+height:auto;
+}
+
+#umaruToday .month {
+position:absolute;
+top:8px;
+left:12px;
+font-size:20px;
+}
+
+#umaruToday .day {
+position:absolute;
+display:inline-block;
+top:20px;
+left:10px;
+font-size:20px;
+width:60px;
+text-align:center;
+}
+
+#umaruArchives .archiveDay {
+position:absolute;
+top:-21px;
+left:-10px;
+width:45px;
+height:45px;
+color:#fff;
+background:url(../images/archive_date_bg.png) left top no-repeat;
+background-size:100%;
+}
+
+#umaruArchives .archiveDay .month {
+position:absolute;
+top:7px;
+left:12px;
+}
+
+#umaruArchives .archiveDay .day {
+position:absolute;
+top:18px;
+left:17px;
+width:20px;
+text-align:center;
+}
+
+#umaruEbich #ebichuIntro {
+position:relative;
+margin:0 0 20px;
+padding-bottom:45px;
+background: url(../images/umaru_ebichu_bb_smp.png) left bottom no-repeat;
+background-size:100% auto;
+}
+
+#umaruEbich .ebichuProfile .ebichuPhoto {
+width:100%;
+height:180px;
+padding:0;
+border-radius:5px 5px 0 0 / 5px 5px 0 0;
+float:none;
+_display:inline;
+}
+
+#umaruEbich .ebichuProfile .ebichuPhoto img {
+display:none;
+}
+
+#umaruEbich #no3 .ebichuPhoto {
+background:url(../images/umaru_ebichu_ph3_smp.jpg) left top no-repeat;
+background-size:100% auto;
+}
+
+#umaruEbich #no7 .ebichuPhoto {
+background:url(../images/umaru_ebichu_ph7_smp.jpg) left top no-repeat;
+background-size:100% auto;
+}
+
+#umaruEbich #no9 .ebichuPhoto {
+background:url(../images/umaru_ebichu_ph9_smp.jpg) left top no-repeat;
+background-size:100% auto;
+}
+
+#umaruEbich #no10 .ebichuPhoto {
+background:url(../images/umaru_ebichu_ph10_smp.jpg) left top no-repeat;
+background-size:100% auto;
+}
+
+
+#umaruEbich .ebichuProfile .ebichuText {
+width:100%;
+float:none;
+_display:inline;
+}
+
+#umaruEbich .ebichuProfile .ebichuText p {
+margin:0 0 7px;
+padding:5px 10px;
+background-color:#ffe3ee;
+}
+
+#umaruEbich .ebichuProfile .ebichuText p strong {
+color:#ff5299;
+font-size:120%;
+}
+
+#umaruEbich .ebichuProfile .ebichuText h3 {
+color:#ff5299;
+margin:0 0 12px;
+padding:0 10px;
+font-size:22px;
+}
+
+#umaruEbich .ebichuProfile .ebichuText dl {
+margin:0 10px;
+}
+
+#umaruEbich .ebichuProfile .ebichuText dt {
+width:60px;
+float:left;
+font-size:110%;
+color:#666;
+font-weight:bold;
+}
+
+#umaruEbich .ebichuProfile .ebichuText dd {
+margin:0 0 5px;
+padding:0 0 3px 60px;
+border-bottom:1px solid #ccc;
+}
+
+#umaruEbich .ebichuProfile .ebichuText dd.ability {
+border-bottom:none;
+}
+
+#presentFlow {
+width:100%;
+margin:0;
+float:left;
+_display:inline;
+}
+
+#presentFlow #presentStep1 {
+width:48%;
+float:left;
+margin:0 0 5px;
+}
+
+#presentFlow #presentStep2 {
+width:48%;
+float:right;
+margin:5px 0;
+}
+
+#presentFlow dt {
+margin:0 !important;
+}
+
+#presentFlow #presentStep1 dd div,
+#presentFlow #presentStep2 dd div {
+min-height:260px;
+}
+
+#presentFlow dd {
+padding:0 2px 2px;
+background:#ffee00;
+border-radius:0 0 5px 5px / 0 0 5px 5px;
+}
+
+#presentFlow dd div {
+padding:15px 10px;
+background:#fff;
+border-radius:0 0 5px 5px / 0 0 5px 5px;
+}
+
+#presentFlow dd div img {
+width:100%;
+height:auto;
+margin:0 0 15px;
+}
+
+
+#presentTwitter {
+width:100%;
+margin:0;
+text-align:center;
+float:none;
+_display:inline;
+}
+
+#umaruFooter dl#umaruPresent dd.announce {
+text-align:left;
+}
+
+#umaruFooter dl#umaruPresent dd.attention {
+padding:0;
+}
+
+#umaruFooter dl#umaruPresent dd.attention ul {
+list-style:disc;
+margin:0 0 10px 25px;
+}
+}

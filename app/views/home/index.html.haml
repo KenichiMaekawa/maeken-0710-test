@@ -1,1 +1,23 @@
-ほげ
+.cover
+  .cover-image{style: 'background-image: url(/assets/images/cover.jpg)'}
+  .cover-content
+    .content{ data: {'0' => 'transform: translate3d(0px, 0px, 0px); opacity: 1;', '800' => 'transform: translate3d(0px, 150px, 0px); opacity: 0;'} }
+      %h1
+        test.bijint.com
+      %h2
+        まえけんテスト用です。
+
+.post
+  .post-content
+    %p
+      リンク：
+    %p
+      <a href="http://partner.bijin-tokei.co.jp" target="_blank">BMS</a>
+    %p
+      <a href="http://www.bijint.com" target="_blank">TOKEI</a>
+    %p
+      <a href="https://manage.bijint.com/console/" target="_blank">TOKEI管理</a>
+    .fill
+
+:javascript
+  var s = skrollr.init();

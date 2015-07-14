@@ -68,3 +68,6 @@ gem 'datetimepicker-rails', github: 'zpaulovics/datetimepicker-rails', branch: '
 # haml化
 gem 'haml-rails'
 gem 'erb2haml'
+
+# ログイン認証
+gem 'devise'
